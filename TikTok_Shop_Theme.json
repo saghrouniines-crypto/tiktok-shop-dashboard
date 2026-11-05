@@ -1,0 +1,78 @@
+{
+  "name": "TikTok Shop",
+  "dataColors": [
+    "#FE2C55",
+    "#25F4EE",
+    "#FFFFFF",
+    "#8A8B91",
+    "#FF7A93",
+    "#7DF9F4",
+    "#B3B4B9",
+    "#C41E3F"
+  ],
+  "background": "#161823",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#FE2C55",
+  "good": "#25F4EE",
+  "bad": "#FE2C55",
+  "neutral": "#8A8B91",
+  "textClasses": {
+    "callout": {
+      "fontSize": 28,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF"
+    },
+    "title": {
+      "fontSize": 13,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#FFFFFF"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#D0D0D4"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 13
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#161823" } },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#2F3140" } },
+            "radius": 8
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#010101" } },
+            "transparency": 0
+          }
+        ]
+      }
+    }
+  }
+}
