@@ -33,11 +33,12 @@ An end-to-end data analytics project scraping TikTok Shop product listings, tran
 Created calculated fields and measures, including:
 $$\text{Revenue} = \text{soldCount} \times \text{Sale\_Price}$$
 $$\text{Discount \%} = 1 - \left(\frac{\text{Sale\_Price}}{\text{Original\_price}}\right)$$
-* Created boolean flag indicators (`Yes`/`No`) from string tags for **Free Shipping**, **Flash Sale**, and **Limited Deal**.
-* Generated a non-zero transformed column for `soldCount` to enable logarithmic scale representation on scatter plots.
+- Created boolean flag indicators (Yes/No) from string tags for **Free Shipping**, **Flash Sale**, and **Limited Deal**.
+- Generated a non-zero transformed column for `soldCount` to enable logarithmic scale representation on scatter plots.
 
 ### 4. UI/UX Design
-* Designed a custom dark-mode aesthetic (`theme/TikTok_Shop_Theme.json`) based on TikTok's brand palette (Black `#000000`, Cyan `#00F2FE`, and Magenta `#FE2C55`).
+- Designed a custom dark-mode aesthetic (`theme/TikTok_Shop_Theme.json`) based on TikTok's brand palette (Black `#000000`, Cyan `#00F2FE`, and Magenta `#FE2C55`).
+
 
 ---
 
