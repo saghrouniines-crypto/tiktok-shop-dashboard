@@ -31,8 +31,8 @@ An end-to-end data analytics project scraping TikTok Shop product listings, tran
 
 ### 3. Data Modeling & DAX (Power BI)
 Created calculated fields and measures, including:
-$$\text{Revenue} = \text{soldCount} \times \text{Sale\_Price}$$
-$$\text{Discount \%} = 1 - \left(\frac{\text{Sale\_Price}}{\text{Original\_price}}\right)$$
+- `Revenue = soldCount * Sale_Price`
+- `Discount % = 1 - (Sale_Price / Original_price)`
 - Created boolean flag indicators (Yes/No) from string tags for **Free Shipping**, **Flash Sale**, and **Limited Deal**.
 - Generated a non-zero transformed column for `soldCount` to enable logarithmic scale representation on scatter plots.
 - 
