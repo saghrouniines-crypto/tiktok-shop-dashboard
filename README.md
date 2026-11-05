@@ -2,8 +2,7 @@
 
 An end-to-end data analytics project scraping TikTok Shop product listings, transforming unstructured JSON into a cleaned relational dataset, and building an interactive Power BI dashboard to analyze sales drivers, market concentration, and pricing dynamics.
 
-![TikTok Shop Dashboard Preview](images/dashboard.png)
-
+![TikTok Shop Dashboard Preview](tiktok-shop-dashboard.png)
 ---
 
 ## 📌 Executive Summary & Key Findings
