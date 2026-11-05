@@ -55,18 +55,14 @@ Created calculated fields and measures, including:
 ## 📂 Repository Structure
 
 ```text
+```text
 tiktok-shop-dashboard/
 ├── README.md
-├── dashboard/
-│   └── tiktok.pbix
-├── images/
-│   └── dashboard.png
-├── data/
-│   └── Tiktok_shop.csv
-├── scripts/
-│   └── json_to_csv.py
-└── theme/
-    └── TikTok_Shop_Theme.json
+├── tiktok.pbix
+├── tiktok-shop-dashboard.png
+├── Tiktok_shop.csv
+├── script_json_to_csv.ipynb
+└── TikTok_Shop_Theme.json
 
 ## 🚀 How to Run & View
 
